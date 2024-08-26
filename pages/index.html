@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <%- include('./layout/header'); -%>
@@ -14,7 +15,7 @@
       <section class="container py-8 py-lg-10">
         <div class="row">
           <div class="col-12">
-            <div class="mb-4 rounded-3 position-relative">
+            <div class="mb-4 rounded-3 position-relative" data-aos="fade-down" data-aos-duration="2000">
               <picture>
                 <source media="(min-width: 992px)" srcset="../assets/images/banner.png" />
                 <img src="../assets/images/banner-sm.png" alt="" class="w-100" />
@@ -36,7 +37,7 @@
         <h2 class="fs-lg-2 fs-4 mb-5">熱門主題</h2>
         <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 gy-5">
           <div class="col">
-           <div class="theme-card">
+           <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
             <picture>
               <source media="(min-width:992px)" srcset="../assets/images/theme-1.png">
               <img src="../assets/images/theme-1-sm.png" alt="" class="w-100">
@@ -47,7 +48,7 @@
            </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-2.png">
                <img src="../assets/images/theme-2-sm.png" alt="" class="w-100">
@@ -58,7 +59,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-3.png">
                <img src="../assets/images/theme-3-sm.png" alt="" class="w-100">
@@ -69,7 +70,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="00">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-4.png">
                <img src="../assets/images/theme-4-sm.png" alt="" class="w-100">
@@ -80,7 +81,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-5.png">
                <img src="../assets/images/theme-5-sm.png" alt="" class="w-100">
@@ -91,7 +92,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-6.png">
                <img src="../assets/images/theme-6-sm.png" alt="" class="w-100">
@@ -102,7 +103,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-7.png">
                <img src="../assets/images/theme-7-sm.png" alt="" class="w-100">
@@ -113,7 +114,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="theme-card">
+            <div class="theme-card" data-aos="fade-down" data-aos-duration="500">
              <picture>
                <source media="(min-width:992px)" srcset="../assets/images/theme-8.png">
                <img src="../assets/images/theme-8-sm.png" alt="" class="w-100">
@@ -148,7 +149,7 @@
           <div class="col-12 col-md-8">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide ">
+                  <div class="swiper-slide" data-aos="fade-down" data-aos-duration="500">
                     <div class="card border-0">
                       <picture>
                         <source media="(min-width:992px)" srcset="../assets/images/articles-1.png">
@@ -164,7 +165,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" data-aos="fade-down" data-aos-duration="700">
                     <div class="card border-0">
                       <picture>
                         <source media="(min-width:992px)" srcset="../assets/images/articles-2.png">
@@ -306,9 +307,9 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
+              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
             </div>
           </div>
           <div class="col-12 d-lg-none d-block">          
@@ -481,9 +482,9 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="swiper mySwiper2 ">
+            <div class="swiper mySwiper2">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-aos="flip-right" data-aos-duration="500">
                   <div class="w-100">
                     <h4 class="text-primary-400 text-start bigfs mb-6">食.</h4>     
                     <picture>
@@ -500,7 +501,7 @@
                     </div> 
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-aos="flip-right" data-aos-duration="700">
                   <div class="w-100">
                     <h4 class="text-primary-400 text-start bigfs mb-6">旅.</h4>     
                     <picture>
@@ -517,7 +518,7 @@
                     </div> 
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-aos="flip-right" data-aos-duration="900">
                   <div class="w-100">
                     <h4 class="text-primary-400 text-start bigfs mb-6">食.</h4>     
                     <picture>
@@ -542,13 +543,13 @@
 
       <section class="bg-primary-200 py-8 py-lg-10">
        <div class="container">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center" data-aos="fade-down" data-aos-duration="500">
           <div class="col-6 d-none d-md-block">
             <h5 class="text-gray-400 mb-1">今天又不知道要去哪裡了嗎？</h5>
             <h2 class="fs-4 fs-lg-2 mb-6 ">Vivre 給你意想不到的生活風格提案</h2>
             <a class="btn btn-secondary-200 px-4 text-white gap-12  fs-lg-5 px-5 mx-lg-0" href="#">我想了解</a>
           </div>
-          <div class="col-12 d-block d-md-none text-center my-8">
+          <div class="col-12 d-block d-md-none text-center my-8" data-aos="fade-down" data-aos-duration="500">
             <h5 class="text-gray-400 mb-1">今天又不知道要去哪裡了嗎？</h5>
             <h2 class="fs-4 fs-lg-2 mb-6 ">Vivre 給你意想不到的生活風格提案</h2>
             <a class="btn btn-secondary-200 px-4 text-white gap-12  fs-lg-5 px-5 mx-lg-0" href="#">我想了解</a>
@@ -556,7 +557,7 @@
           <div class="col-6 d-none d-md-block">
             <div class="d-flex  justify-content-between">
               <div class="d-flex flex-column mt-6">
-                <div class="card bg-transparent border-0 mb-4 me-2 ">
+                <div class="card bg-transparent border-0 mb-4 me-2" data-aos="flip-up"  data-aos-duration="500">
                   <div class="position-relative card-img-top">
                     <img src="../assets/images/content-3.png" alt="" class="where-card object-fit-cover mt-5">
                   </div>
@@ -573,7 +574,7 @@
                       <i class="bi bi-play-fill"></i>人氣行程</a>  
                   </div>
                 </div>
-                <div class="card bg-transparent border-0 mb-4 me-2 ">
+                <div class="card bg-transparent border-0 mb-4 me-2" data-aos="flip-up" data-aos-duration="500">
                   <div class="position-relative card-img-top">
                     <img src="../assets/images/content-6.png" alt="" class="where-card mt-5 img-fluid">
                   </div>
@@ -592,7 +593,7 @@
                 </div>
               </div>
               <div class="d-flex flex-column ">
-                <div class="card bg-transparent border-0 mb-4 ">
+                <div class="card bg-transparent border-0 mb-4" data-aos="flip-up" data-aos-duration="500">
                   <div class="position-relative card-img-top">
                     <img src="../assets/images/content-7.png" alt="" class="where-card object-fit-cover mt-5">
                   </div>
@@ -609,7 +610,7 @@
                       <i class="bi bi-play-fill"></i>編輯推薦</a>  
                   </div>
                 </div>
-                <div class="card bg-transparent border-0 mb-4 ">
+                <div class="card bg-transparent border-0 mb-4" data-aos="flip-up" data-aos-duration="500">
                   <div class="position-relative card-img-top">
                     <img src="../assets/images/content-8.png" alt="" class="where-card object-fit-cover mt-5">
                   </div>
@@ -788,7 +789,7 @@
         },
       });
     </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
