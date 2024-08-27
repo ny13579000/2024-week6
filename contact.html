@@ -11,88 +11,36 @@
     <link rel="stylesheet" href="/2024-week6/assets/main-67006a6d.css">
   </head>
   <body>
-    <div class="container border-bottom">
-    <div class="row">
-      <div class="clo-12">
-        <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid d-flex flex-row-reverse flex-lg-row ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <img src="/2024-week6/assets/Vector-510a992f.svg" alt="">
-          </a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <div class="col-4">
-              <div class="input-group">
-                <input type="text" class="form-control border-0 py-1 rounded-start-pill" id="search" type="Search" placeholder="搜尋文章" aria-label="Amount (to the nearest dollar)">
-                <a href="#" class="input-group-text border-0 rounded-end-pill ">
-                  <i class="bi bi-search text-secondary-200 "></i>
-                </a>
-              </div>
-            </div>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center d-flex">
-              <li class="nav-item">
-                <a class="nav-link active py-1 px-4" aria-current="page">所有文章</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active py-1 px-4" href="#">訂閱方案</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active py-1 px-4" aria-disabled="true" href="#">關於我們</a>
-              </li>
-              <li>
-                <a class="btn btn-secondary-200 w-100 py-1 px-4 link-light" href="#" role="button">登入 / 註冊</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-         </nav>
-      </div>
-    </div> 
-</div>
-
-
-<nav class="navbar navbar-light fixed-top d-lg-none d-block  bg-primary-100">
+    <nav class="navbar navbar-light fixed-top bg-primary-100 navbar-expand-lg">
   <div class="container-fluid  bg-primary-100">
-    <div class="d-flex justify-content-between w-100">
-      <div class="d-flex">
-        <a class="navbar-brand" href="index.html"><img src="/2024-week6/assets/Vector-510a992f.svg" alt=""></a>
-        
-      </div>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="d-flex">
+      <a class="navbar-brand" href="index.html"><img src="/2024-week6/assets/Vector-510a992f.svg" alt=""></a>  
     </div>
-
-    <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <a class="navbar-brand" href="index.html"><img src="/2024-week6/assets/Vector-510a992f.svg" alt=""></a>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <div class="input-group">
-          <input type="text" class="form-control border-0 py-1 rounded-start-pill" id="search" type="Search" placeholder="搜尋文章" aria-label="Amount (to the nearest dollar)">
-          <a href="#" class="input-group-text border-0 rounded-end-pill ">
-            <i class="bi bi-search text-secondary-200 "></i>
-          </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-top h-100 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a class="navbar-brand" href="index.html"><img src="/2024-week6/assets/Vector-510a992f.svg" alt=""></a>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>   
         </div>
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active py-1 px-4" aria-current="page">所有文章</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active py-1 px-4" href="#">訂閱方案</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active py-1 px-4" aria-disabled="true" href="#">關於我們</a>
-          </li>
-          <li>
-            <a class="btn btn-secondary-200 w-100 py-1 px-4 link-light" href="#" role="button">登入 / 註冊</a>
-          </li>
-        </ul>
-       
-      </div>
+        <div class="offcanvas-body justify-content-between">
+          <div class="col-lg-3 col-12">
+            <div class="input-group py-1">
+              <input type="text" id="search" type="Search" placeholder="搜尋文章" aria-label="Amount (to the nearest dollar)" 
+              class="form-control border-0 rounded-start-pill" >
+              <a href="#" class="input-group-text border-0 rounded-end-pill ">
+                <i class="bi bi-search text-secondary-200 "></i>
+              </a>
+            </div>
+          </div>
+          <ul class="navbar-nav pe-3 py-1">
+            <li class="nav-item"><a class="nav-link active py-1 px-4" aria-current="page">所有文章</a></li>
+            <li class="nav-item"><a class="nav-link active py-1 px-4" href="#">訂閱方案</a></li>
+            <li class="nav-item"><a class="nav-link active py-1 px-4" aria-disabled="true" href="#">關於我們</a></li>
+            <li><a class="btn btn-secondary-200 w-100 py-1 px-4 link-light" href="#" role="button">登入 / 註冊</a></li>
+          </ul>
+        </div>
     </div>
   </div>
 </nav>    <section>
